@@ -1,0 +1,33 @@
+.race-box {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.race-image-container {
+  position: relative;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+
+.race-image {
+  width: auto; /* Уменьшите ширину картинки */
+  height: auto; /* Уменьшите высоту картинки */
+  z-index: 2;
+  display: block;
+  background: none;
+  border: 2px solid #ccc;
+}
+
+.race-description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}

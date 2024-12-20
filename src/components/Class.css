@@ -1,0 +1,24 @@
+.class-box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .class-image {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    
+  }
+  
+  .class-description {
+    font-size: 14px;
+    color: #555;
+  }
+  

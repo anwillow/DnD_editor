@@ -1,0 +1,130 @@
+/* Основной контейнер */
+.info-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Кнопки переключения языка */
+.language-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.lang-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.lang-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.lang-button.active {
+  background-color: #0056b3;
+}
+
+/* Сетка кнопок классов */
+.inforaces-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 кнопки в строке */
+  gap: 10px;
+  justify-items: center;
+  column-gap: 0px; 
+}
+
+.inforace-button {
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение элементов */
+    align-items: center; /* Центрировать содержимое по горизонтали */
+    justify-content: center; /* Центрировать содержимое по вертикали */
+    width: 240px; /* Фиксированная ширина */
+    height: 120px; /* Фиксированная высота */
+    padding: 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 10px; /* Закруглённые углы */
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+.inforace-image {
+    width: 80px; /* Ограничение ширины */
+    height: 80px; /* Ограничение высоты */
+    object-fit: contain; /* Сохранение пропорций */
+    margin-bottom: 10px; /* Отступ между изображением и текстом */
+  }
+
+.inforace-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.inforace-button:hover {
+    background-color: #3700b3;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Увеличенная тень при наведении */
+}
+
+/* Основной контейнер */
+.info-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+  
+  /* Кнопка переключения языка */
+  .lang-button {
+    margin-bottom: 20px;
+  }
+  
+  /* Модальное окно */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-modal-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .close-modal-button:hover {
+    background-color: #3700b3;
+  }
+  

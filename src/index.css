@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Перемещает элемент вправо */
+  padding: 10px 20px;
+  background-color: #f8f9fa; /* Светло-серый фон */
+  border-bottom: 2px solid #ddd; /* Нижняя граница */
+}
+
+.nav-button {
+  background-color: #007bff; /* Синий фон */
+  color: white; /* Белый текст */
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #0056b3; /* Темно-синий при наведении */
+  transform: scale(1.05); /* Легкое увеличение при наведении */
+}
