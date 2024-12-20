@@ -34,11 +34,11 @@ Follow these steps to set up the project on your local system:
    git clone https://github.com/anwillow/dnd-character-editor.git
    cd dnd-character-editor
    ```
-2. ** Install Dependencies:
+2. **Install Dependencies:
 Use npm to install all required dependencies: `npm install`
-3. Run the Development Server:
+3. **Run the Development Server:
 Start the local development server: `npm start`
-4. Open your browser and navigate to: http://localhost:3000
+4. **Open your browser and navigate to: http://localhost:3000
 
 ## Requirements
 - Node.js (v14 or higher)
